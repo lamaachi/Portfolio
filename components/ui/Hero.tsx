@@ -1,5 +1,6 @@
 'use client';
-import { ChevronDown, Github, Linkedin, Mail, Download, ArrowRight, Sparkles } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, Mail, Download, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
@@ -123,7 +124,7 @@ const Hero = () => {
               </button>
               
               <a
-                href="https://hzhqqukxzktdzqgvkgct.supabase.co/storage/v1/object/public/myresumes/cv.pdf"
+                href="https://hzhqqukxzktdzqgvkgct.supabase.co/storage/v1/object/public/myresumes/LAMAACHI_YOUSSSEF_CV.pdf"
                 download="LAMAACHI_YOUSSEF_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -165,10 +166,10 @@ const Hero = () => {
           </div>
           
           {/* Right Image */}
-          <div className={`order-1 lg:order-2 lg:col-span-5 relative transition-all duration-1000 delay-300 ${
+<div className={`order-1 lg:order-2 lg:col-span-5 relative transition-all duration-1000 delay-300 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
-            <div className="relative mx-auto max-w-sm lg:max-w-md xl:max-w-lg">
+            <div className="relative mx-auto max-w-[18rem] lg:max-w-xs xl:max-w-sm">
               
               {/* Animated Rings */}
               <div className="absolute inset-0 animate-spin-slow">
@@ -182,11 +183,13 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/30 via-blue-500/20 to-purple-500/30 rounded-3xl blur-3xl opacity-60 animate-pulse"></div>
               
               {/* Image Container with Glassmorphism */}
-              <div className="relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-xl rounded-3xl p-2 shadow-2xl border border-slate-700/50">
+              <div className="relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-xl rounded-3xl p-1 shadow-2xl border border-slate-700/50">
                 <div className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 rounded-2xl overflow-hidden relative">
-                  <img
+                  <Image
                     src="/images/me_aws.jpeg"
                     alt="Profile"
+                    width={300}
+                    height={400}
                     className="w-full h-auto object-cover aspect-[3/4] rounded-2xl hover:scale-105 transition-transform duration-700"
                   />
                   

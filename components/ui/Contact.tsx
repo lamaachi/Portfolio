@@ -58,7 +58,7 @@ const Contact = () => {
         </h2>
         <div className="bg-gray-800 p-8 md:p-12 rounded-2xl shadow-2xl border border-gray-700 hover:border-orange-500 transition-all duration-300">
           <p className="text-center text-lg md:text-xl text-gray-300 mb-10 leading-relaxed">
-            Have a project in mind or just want to say hello? Fill out the form below, and I'll get back to you as soon as possible!
+            Have a project in mind or just want to say hello? Fill out the form below, and I will get back to you as soon as possible!
           </p>
           <form onSubmit={handleSubmit} className="space-y-8">
             <div>

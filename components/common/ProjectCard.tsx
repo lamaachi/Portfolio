@@ -1,5 +1,6 @@
 import { Project } from '@/types';
 import { Github, ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 interface ProjectCardProps {
   project: Project;
@@ -8,7 +9,7 @@ interface ProjectCardProps {
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div className="bg-slate-800/50 rounded-lg overflow-hidden card-hover">
-      <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+      <Image src={project.image} alt={project.title} width={500} height={300} className="w-full h-48 object-cover" />
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
         <p className="text-gray-400 mb-4">{project.description}</p>

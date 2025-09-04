@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Home, User, Code, Briefcase, Menu, X } from 'lucide-react';
 import Navigation from '@/components/common/Navigation';
 
 const Header = () => {
