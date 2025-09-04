@@ -2,7 +2,7 @@ import { Project } from '@/types';
 
 export const projects: Project[] = [
   {
-    id: 1,
+    id: 2,
     title: "LiveMeet - Real-time Chat Application",
     description: "A modern, real-time chat application built with React, TypeScript, Socket.IO, and Tailwind CSS. Features include real-time messaging, typing indicators, user presence, room-based chats, and a modern responsive UI.",
     image: "/images/livemeet.png", // 👉 replace with your real image path
