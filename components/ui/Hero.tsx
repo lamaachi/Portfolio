@@ -96,11 +96,11 @@ const Hero = () => {
             {/* Statistics */}
             <div className="flex flex-wrap gap-6 py-4">
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">5+</div>
+                <div className="text-2xl font-bold text-white">1+</div>
                 <div className="text-sm text-slate-400">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">50+</div>
+                <div className="text-2xl font-bold text-white">10+</div>
                 <div className="text-sm text-slate-400">Projects Completed</div>
               </div>
               <div className="text-center">
@@ -122,8 +122,11 @@ const Hero = () => {
                 </span>
               </button>
               
-              <button
-                onClick={() => scrollToSection('contact')}
+              <a
+                href="https://hzhqqukxzktdzqgvkgct.supabase.co/storage/v1/object/public/myresumes/cv.pdf"
+                download="LAMAACHI_YOUSSEF_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group px-8 py-4 bg-slate-800/50 backdrop-blur-sm border-2 border-slate-700/50 text-slate-300 font-semibold rounded-2xl hover:bg-slate-700/50 hover:border-cyan-400/50 hover:text-white transition-all duration-300 relative overflow-hidden"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -131,7 +134,7 @@ const Hero = () => {
                   <Download size={20} />
                   Download CV
                 </span>
-              </button>
+              </a>
             </div>
             
             {/* Social Links */}
@@ -182,7 +185,7 @@ const Hero = () => {
               <div className="relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-xl rounded-3xl p-2 shadow-2xl border border-slate-700/50">
                 <div className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 rounded-2xl overflow-hidden relative">
                   <img
-                    src="/images/me.jpeg"
+                    src="/images/me_aws.jpeg"
                     alt="Profile"
                     className="w-full h-auto object-cover aspect-[3/4] rounded-2xl hover:scale-105 transition-transform duration-700"
                   />
@@ -221,7 +224,7 @@ const Hero = () => {
       </div>
       
       {/* Enhanced Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-3">
+      <div className="absolute bottom-8  left-1/2 transform  -translate-x-1/2 flex flex-col items-center gap-3">
         <div className="flex flex-col items-center gap-1">
           <span className="text-slate-400 text-xs uppercase tracking-widest font-medium">Scroll to explore</span>
           <div className="w-px h-8 bg-gradient-to-b from-cyan-400 to-transparent"></div>
