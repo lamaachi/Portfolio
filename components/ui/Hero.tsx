@@ -64,7 +64,7 @@ const Hero = () => {
             <div className="space-y-6">
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
-                  <span className="text-cyan-400 font-semibold text-xl tracking-wide">Hi, I'm</span>
+                  <span className="text-cyan-400 font-semibold text-xl tracking-wide">Hi, I am</span>
                   <div className="h-px bg-gradient-to-r from-cyan-400 to-transparent flex-1"></div>
                 </div>
                 
