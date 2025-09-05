@@ -1,5 +1,3 @@
-'use client';
-
 import { ContactTemplate } from "@/emails/ContactTemplate";
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
