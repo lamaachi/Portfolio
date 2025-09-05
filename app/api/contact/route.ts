@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
       from: "Portfolio <onboarding@resend.dev>",
       to: "istatasila7@gmail.com",
       subject: `New message from ${name}`,
-      react: ContactTemplate({ name, email, message })
+      react: await ContactTemplate({ name, email, message })
     });
     console.log("Resend response:", { data, error });
 
