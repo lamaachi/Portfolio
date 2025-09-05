@@ -1,3 +1,6 @@
+'use client';
+
+import { ContactTemplate } from "@/emails/ContactTemplate";
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
@@ -11,7 +14,7 @@ export async function POST(req: NextRequest) {
       from: "Portfolio <onboarding@resend.dev>",
       to: "istatasila7@gmail.com",
       subject: `New message from ${name}`,
-      html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
+      react: ContactTemplate({ name, email, message })
     });
     console.log("Resend response:", { data, error });
 
