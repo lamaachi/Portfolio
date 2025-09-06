@@ -4,42 +4,38 @@ export const experiences: Experience[] = [
   {
     id: 1,
     company: "Skylark Services",
-    role: "Stagiaire Ingénieur IA / Back-end (PFE - 6 mois)",
-    period: "Fév. 2025 – Juin 2025",
-    description: `• Fine-tuning de modèles BERT et LLM pour des tâches de classification et de génération de texte.
-• Développement de services back-end intelligents avec Spring AI, intégrant les API OpenAI.
-• Déploiement de modèles via FastAPI pour un service sécurisé et évolutif.
-• Automatisation de l’annotation via GenAI et Label Studio dans des pipelines NLP.
-• Mise en place de pipelines CI/CD avec GitLab pour l’intégration et le déploiement continus.
-Tech stack: Python, Java, Spring Boot, Spring AI, FastAPI, Docker, GitLab CI/CD, TensorFlow, PyTorch, Scikit-learn, GPT, Label Studio, OCI.`
+    role: "AI / Back-end Engineering",
+    period: "Feb 2025 – Jun 2025",
+    description: `• Fine-tuned BERT and LLM models for classification and text generation tasks.
+• Developed intelligent back-end services with Spring AI, integrating OpenAI APIs.
+• Deployed models via FastAPI for a secure and scalable service.
+• Automated annotation using GenAI and Label Studio in NLP pipelines.
+• Implemented CI/CD pipelines with GitLab for continuous integration and deployment.`
   },
   {
     id: 2,
     company: "PCS Agri",
-    role: "Stagiaire Développeur Full-Stack (PFA - 2 mois)",
-    period: "Juin 2024 – Août 2024",
-    description: `• Conception d’une architecture mobile offline-first avec SQLite pour une synchronisation fluide des données.
-• Amélioration des performances de l’application (+20 %) grâce à l’optimisation des données locales.
-• Analyse et amélioration du code avec SonarQube, réduisant les bugs et améliorant la maintenabilité.
-Tech stack: React Native (Expo), SQLite, Node.js, Express, Git, SonarQube, GitHub Actions.`
+    role: "Full-Stack Developer",
+    period: "Jun 2024 – Aug 2024",
+    description: `• Designed an offline-first mobile architecture with SQLite for seamless data synchronization.
+• Improved app performance (+20%) through local data optimization.
+• Analyzed and improved code quality with SonarQube, reducing bugs and enhancing maintainability.`
   },
   {
     id: 3,
     company: "WebLinking",
-    role: "Stagiaire Développeur Full-Stack (PFA - 2 mois)",
-    period: "Avr. 2023 – Juin 2023",
-    description: `• Développement d’une application web complète avec Spring Boot et une architecture modulaire.
-• Déploiement sur Microsoft Azure pour garantir haute disponibilité et scalabilité.
-• Mise en place de pipelines CI/CD avec GitHub Actions pour automatiser les déploiements.
-Tech stack: Java, Spring Boot, TypeScript, Spring Security, Spring Data JPA, Azure, Docker, GitHub Actions.`
+    role: "Full-Stack Developer",
+    period: "Apr 2023 – Jun 2023",
+    description: `• Developed a complete web application with Spring Boot and a modular architecture.
+• Deployed on Microsoft Azure to ensure high availability and scalability.
+• Set up CI/CD pipelines with GitHub Actions to automate deployments.`
   },
   {
     id: 4,
     company: "VRI ELECTRO",
-    role: "Stagiaire Développeur .NET (PFE - 2 mois)",
-    period: "Avr. 2022 – Juin 2022",
-    description: `• Conception d’une application bureautique pour la gestion des réparations d’appareils électroménagers, améliorant la productivité de 30 %.
-• Mise en place d’une base de données SQL Server centralisée pour un accès unifié aux données.
-Tech stack: .NET, C#, SQL Server, WebForms, VS Code.`
+    role: ".NET Developer",
+    period: "Apr 2022 – Jun 2022",
+    description: `• Designed a desktop application for managing household appliance repairs, boosting productivity by 30%.
+• Implemented a centralized SQL Server database for unified data access.`
   }
 ];
