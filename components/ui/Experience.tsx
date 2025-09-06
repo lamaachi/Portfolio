@@ -12,15 +12,15 @@ const Experience = () => {
           {/* Timeline Line - Modernized */}
           <div className="absolute left-1/2 -translate-x-1/2 h-full w-1 bg-gradient-to-b from-teal-500 to-blue-500 rounded-full shadow-lg hidden md:block"></div>
 
-          {experiences.map((exp, index) => (
-            <div 
-              key={index} 
+          {experiences.map((exp) => (
+            <div
+              key={exp.id}
               className="mb-16 flex flex-col md:flex-row items-center w-full group" // Added group for hover effects
             >
               {/* Left Side (Company & Period) */}
-              <div 
+              <div
                 className={`md:w-1/2 md:pr-12 text-center transition-all duration-300 ${
-                  index % 2 === 0 ? 'md:text-right md:order-1' : 'md:text-left md:order-3' // Alternate sides
+                  exp.id % 2 === 0 ? 'md:text-right md:order-1' : 'md:text-left md:order-3' // Alternate sides
                 }`}
               >
                 <div className="p-6 bg-gray-800 rounded-xl shadow-lg border border-gray-700 group-hover:border-teal-500 transform group-hover:-translate-y-1 group-hover:scale-102 transition-all duration-300">
@@ -38,9 +38,9 @@ const Experience = () => {
               </div>
 
               {/* Right Side (Role & Description) */}
-              <div 
+              <div
                 className={`md:w-1/2 md:pl-12 text-center transition-all duration-300 ${
-                  index % 2 === 0 ? 'md:text-left md:order-3' : 'md:text-right md:order-1' // Alternate sides
+                  exp.id % 2 === 0 ? 'md:text-left md:order-3' : 'md:text-right md:order-1' // Alternate sides
                 }`}
               >
                 <div className="p-6 bg-gray-800 rounded-xl shadow-lg border border-gray-700 group-hover:border-blue-500 transform group-hover:-translate-y-1 group-hover:scale-102 transition-all duration-300">

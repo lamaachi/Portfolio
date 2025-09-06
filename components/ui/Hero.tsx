@@ -141,8 +141,8 @@ const Hero = () => {
                   { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
                   { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
                   { icon: Mail, href: "mailto:your.email@example.com", label: "Email" }
-                ].map(({ icon: Icon, href, label }, index) => (
-                  <a key={index} href={href} className="group relative p-3 bg-slate-800/30 backdrop-blur-sm border border-slate-700/30 rounded-xl hover:bg-slate-700/50 hover:border-cyan-400/50 transition-all duration-300 hover:scale-110" target="_blank" rel="noopener noreferrer" aria-label={label}>
+                ].map(({ icon: Icon, href, label }) => (
+                  <a key={href} href={href} className="group relative p-3 bg-slate-800/30 backdrop-blur-sm border border-slate-700/30 rounded-xl hover:bg-slate-700/50 hover:border-cyan-400/50 transition-all duration-300 hover:scale-110" target="_blank" rel="noopener noreferrer" aria-label={label}>
                     <Icon size={20} className="text-slate-400 group-hover:text-cyan-400 transition-colors" />
                     <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-slate-800 text-xs text-slate-300 rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">{label}</div>
                   </a>

@@ -2,6 +2,7 @@ import { Experience } from '@/types';
 
 export const experiences: Experience[] = [
   {
+    id: 1,
     company: "Skylark Services",
     role: "Stagiaire Ingénieur IA / Back-end (PFE - 6 mois)",
     period: "Fév. 2025 – Juin 2025",
@@ -13,6 +14,7 @@ export const experiences: Experience[] = [
 Tech stack: Python, Java, Spring Boot, Spring AI, FastAPI, Docker, GitLab CI/CD, TensorFlow, PyTorch, Scikit-learn, GPT, Label Studio, OCI.`
   },
   {
+    id: 2,
     company: "PCS Agri",
     role: "Stagiaire Développeur Full-Stack (PFA - 2 mois)",
     period: "Juin 2024 – Août 2024",
@@ -22,6 +24,7 @@ Tech stack: Python, Java, Spring Boot, Spring AI, FastAPI, Docker, GitLab CI/CD,
 Tech stack: React Native (Expo), SQLite, Node.js, Express, Git, SonarQube, GitHub Actions.`
   },
   {
+    id: 3,
     company: "WebLinking",
     role: "Stagiaire Développeur Full-Stack (PFA - 2 mois)",
     period: "Avr. 2023 – Juin 2023",
@@ -31,6 +34,7 @@ Tech stack: React Native (Expo), SQLite, Node.js, Express, Git, SonarQube, GitHu
 Tech stack: Java, Spring Boot, TypeScript, Spring Security, Spring Data JPA, Azure, Docker, GitHub Actions.`
   },
   {
+    id: 4,
     company: "VRI ELECTRO",
     role: "Stagiaire Développeur .NET (PFE - 2 mois)",
     period: "Avr. 2022 – Juin 2022",
