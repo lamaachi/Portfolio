@@ -5,7 +5,7 @@ const Projects = () => {
   const featuredProjects = projects.filter(p => p.featured);
 
   return (
-    <section id="projects" className="section-padding container-width">
+<section id="projects" className="section-padding container-width bg-gray-900">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 gradient-text">
         Featured Projects
       </h2>

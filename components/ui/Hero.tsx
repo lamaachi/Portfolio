@@ -34,7 +34,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex flex-col justify-center items-center px-6 sm:px-12 md:px-16 lg:px-20 py-20 relative overflow-hidden">
 
       {/* Dynamic Backgrounds - No changes needed, they scale perfectly */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950"></div>
+      <div className="absolute inset-0 bg-gray-900"></div>
       <div
         className="absolute inset-0 opacity-30"
         style={{

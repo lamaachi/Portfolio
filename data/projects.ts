@@ -2,16 +2,6 @@ import { Project } from '@/types';
 
 export const projects: Project[] = [
   {
-    id: 1,
-    title: "Video Project",
-    description: "A project with a video demo.",
-    image: "/images/projects/livemeet.png",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com/lamaachi/Portfolio",
-    live: "https://hzhqqukxzktdzqgvkgct.supabase.co/storage/v1/object/public/projectresources/MyFirstProjectEver.mp4",
-    featured: true
-  },
-  {
     id: 2,
     title: "LiveMeet - Real-time Chat Application",
     description: "A modern, real-time chat application built with React, TypeScript, Socket.IO, and Tailwind CSS. Features include real-time messaging, typing indicators, user presence, room-based chats, and a modern responsive UI.",

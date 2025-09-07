@@ -2,7 +2,7 @@ import { Github, Linkedin, Twitter } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900/50 py-8">
+<footer className="bg-gray-900 py-8">
       <div className="container-width flex flex-col md:flex-row justify-between items-center gap-6">
         <p className="text-gray-400">&copy; {new Date().getFullYear()} Lamaachi Youssef. All rights reserved.</p>
         <div className="flex items-center gap-6">
