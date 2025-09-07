@@ -138,9 +138,8 @@ const Hero = () => {
               <span className="text-slate-400 text-sm font-medium">Connect with me:</span>
               <div className="flex gap-3">
                 {[
-                  { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
+                  { icon: Github, href: "https://github.com/lamaachi", label: "GitHub" },
                   { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-                  { icon: Mail, href: "mailto:your.email@example.com", label: "Email" }
                 ].map(({ icon: Icon, href, label }) => (
                   <a key={href} href={href} className="group relative p-3 bg-slate-800/30 backdrop-blur-sm border border-slate-700/30 rounded-xl hover:bg-slate-700/50 hover:border-cyan-400/50 transition-all duration-300 hover:scale-110" target="_blank" rel="noopener noreferrer" aria-label={label}>
                     <Icon size={20} className="text-slate-400 group-hover:text-cyan-400 transition-colors" />
@@ -201,7 +200,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* REFACTORED: Hide the scroll indicator on larger screens where it's less necessary */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-3 hidden lg:flex">
         <div className="flex flex-col items-center gap-1">
           <span className="text-slate-400 text-xs uppercase tracking-widest font-medium">Scroll to explore</span>
